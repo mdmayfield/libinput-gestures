@@ -19,7 +19,7 @@ CONFDIRS = (USERDIR, '/etc')
 OBLIQUE_RATIO = math.tan(math.radians(22.5))
 
 # Minimum significant distance to move for swipes, in dots squared.
-ABZSQUARE = 70**2
+ABZSQUARE = 300**2
 
 # Rotation threshold in degrees to discriminate pinch rotate from in/out
 ROTATE_ANGLE = 15.0
